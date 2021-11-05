@@ -52,7 +52,7 @@ docker-compose up -d
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/redisgeek/acre-terraform-cron-replication/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/redisgeek/com.redisgeek.function.azure.acre.ping/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -63,11 +63,6 @@ Pull-requests are welcomed!
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-docker pull mcr.microsoft.com/azure-storage/azurite
-docker run -p 10000:10000 -p 10001:10001 -p 10002:10002 -v ${PWD}:/data mcr.microsoft.com/azure-storage/azurite
-
-./mvnw clean package azure-functions:run
 
 [contributors-shield]: https://img.shields.io/github/contributors/redisgeek/com.redisgeek.function.azure.acre.ping.svg?style=for-the-badge
 [contributors-url]: https://github.com/redisgeek/com.redisgeek.function.azure.acre.ping/graphs/contributors
