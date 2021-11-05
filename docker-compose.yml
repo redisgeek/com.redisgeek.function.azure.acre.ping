@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  redis:
+    image: "redis:6-alpine"
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./docker-volumes/redis:/data
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+  azurite-storage:
+    image: "mcr.microsoft.com/azure-storage/azurite:latest"
+    ports:
+      - "10000:10000"
+      - "10001:10001"
+      - "10002:10002"
+    volumes:
+      - ./docker-volumes/azurite:/data
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
