@@ -4,6 +4,8 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+[![mvn test](https://github.com/redisgeek/com.redisgeek.function.azure.acre.ping/actions/workflows/mvn-test.yml/badge.svg)](https://github.com/redisgeek/com.redisgeek.function.azure.acre.ping/actions/workflows/mvn-test.yml)
+
 # com.redisgeek.function.azure.acre.ping
 ## Spring Cloud Function with Azure for ACRE "Ping"
 
