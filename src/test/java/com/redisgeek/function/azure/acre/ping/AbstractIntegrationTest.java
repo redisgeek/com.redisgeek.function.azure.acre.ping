@@ -13,5 +13,6 @@ public abstract class AbstractIntegrationTest {
         System.setProperty("MAIN_CLASS","com.redisgeek.function.azure.acre.ping.Application");
         System.setProperty("spring.redis.host", redis.getContainerIpAddress());
         System.setProperty("spring.redis.port", redis.getFirstMappedPort() + "");
+        System.setProperty("spring.redis.ssl", "false");
     }
 }
