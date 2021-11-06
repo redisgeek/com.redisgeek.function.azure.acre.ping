@@ -12,6 +12,12 @@
 A function to login and "ping" a Redis connection.
 The function starts via the TimerTrigger every 5 minutes.
 
+### Prerequisite
+
+- Java Developer Kit, version 11
+- Azure CLI
+- Azure Functions Core Tools version 3.0.13901.0 or above
+
 ### Built with:
 
 * [Spring Cloud Function](https://spring.io/projects/spring-cloud-function)
