@@ -53,6 +53,13 @@ docker-compose up -d
 ```
 >Runs the function locally, but connects to Azure Resource Manager
 
+### Run in Azure
+
+```bash
+./mvnw clean package azure-function:deploy
+```
+> Set the 'spring.redis.uri' property, on the function, inside of Azure
+
 ## See Also
 
 [acre-terraform-cron-replication](https://github.com/redisgeek/acre-terraform-cron-replication)
